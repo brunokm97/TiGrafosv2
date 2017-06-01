@@ -27,7 +27,7 @@ namespace TI_Grafos_V2
                 var arquivo = new StreamReader(localVoos);
                 while((linha = arquivo.ReadLine()) != null)
                 {
-                    G.Vertices1
+                    
                 }
             }
 

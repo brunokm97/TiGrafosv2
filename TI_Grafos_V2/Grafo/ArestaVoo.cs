@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TI_Grafos_V2
 {
-    class ArestaVoo
+    public class ArestaVoo
     {
         Vertice VerticeAdjacenteVoo;
         List<Horario> HorariosVoos;

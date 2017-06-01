@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TI_Grafos_V2
 {
-    class Horario
+  public   class Horario
     {
         DateTime saida;
         DateTime chegada;
