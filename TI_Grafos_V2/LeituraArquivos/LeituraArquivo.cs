@@ -19,6 +19,19 @@ namespace TI_Grafos_V2
 
        Grafo G = new Grafo();
 
+        public void LerVoo()
+        {
+            if (File.Exists(localVoos))
+            {
+                string linha;
+                var arquivo = new StreamReader(localVoos);
+                while((linha = arquivo.ReadLine()) != null)
+                {
+                    G.Vertices1
+                }
+            }
+
+        }
         public void LerRota()
         {
             if (File.Exists(localRotas))

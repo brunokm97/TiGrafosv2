@@ -13,11 +13,13 @@ namespace TI_Grafos_V2
 
         string nomeCidade;
         ListaRotas rotasAdjacentes;
+        List<ArestaVoo> voosAdjacentes;
 
 
         public Vertice()
         {
             rotasAdjacentes = new ListaRotas();
+            voosAdjacentes = new List<ArestaVoo>();
         }
 
         public string NomeCidade
@@ -43,6 +45,19 @@ namespace TI_Grafos_V2
             set
             {
                 rotasAdjacentes = value;
+            }
+        }
+
+        internal List<ArestaVoo> VoosAdjacentes
+        {
+            get
+            {
+                return voosAdjacentes;
+            }
+
+            set
+            {
+                voosAdjacentes = value;
             }
         }
     }
