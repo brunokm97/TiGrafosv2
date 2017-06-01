@@ -15,6 +15,7 @@ namespace TI_Grafos_V2
         //Origem, Destino, tempo, distância - Rota
 
         string localRotas = @"C:/.../TI_Grafos_V2/rotas.txt";
+        string localVoos = @"C:/.../TI_Grafos_V2/rotas.txt";
 
        Grafo G = new Grafo();
 
